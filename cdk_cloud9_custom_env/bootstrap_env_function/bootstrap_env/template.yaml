@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: Runs custom setup actions on Cloud9 environment
+Resources:
+  C9ObservabilityWorkshopC9BootstrapLambdavwptJZotAGCi:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: lambda_function.handler
+      Runtime: python3.6
+      CodeUri: function/
+      Description: Runs custom setup actions on Cloud9 environment
+      MemorySize: 128
+      Timeout: 900
+      #Role: >-
+       # arn:aws:iam::804450215614:role/C9-Observability-Workshop-C9SetupRole-DWS634SVW9BZ
