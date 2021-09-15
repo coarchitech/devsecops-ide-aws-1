@@ -1,9 +1,17 @@
 
 # Welcome to Cloud9 CDK Python project!
 
-This is a blank project for Python development with CDK. You can deploy a custom environment with ec2 instance role, custom size of disk and bootstraping options.
-Before Run edit `app.py` file:
-* Firts setup your environment with the `accountId` and `region`
+This is a project for Python development with CDK. You can deploy a custom environment with ec2 instance role, custom size of disk and bootstraping options.
+
+<center>
+
+![](./cdk_cloud9_custom_env/(IDE)-Arch.png)
+
+##### Figure 1. Architect Diagram 
+</center>
+
+Before Run:
+* Firsts set up your environment with the `accountId` and `region`
 * Edit your props in file [project_Configurations](project_configurations/project_props_example.py) and create project_props in the same folder, for example:
 
 ```bash
