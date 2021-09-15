@@ -11,6 +11,7 @@ This is a project for Python development with CDK. You can deploy a custom envir
 </center>
 
 Before Run:
+
 * Firsts set up your environment with the `accountId` and `region`
 * Edit your props in file [project_Configurations](project_configurations/project_props_example.py) and create project_props in the same folder, for example:
 
@@ -43,6 +44,7 @@ props = {
 
 ```
 
+* Modify [bootstrap.py](./project_configurations/bootstrap.sh) if you want to add custom steps or tools.
 Now you can deploy your environment with the nexts steps.
 
 
